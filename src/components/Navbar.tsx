@@ -13,66 +13,81 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="fixed w-full bg-white bg-opacity-95 z-50 shadow-sm">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="font-playfair text-2xl md:text-3xl font-bold text-catering-primary">
-          Pacific Island Catering
-        </Link>
-        
-        {/* JJs Shaved Ice logo/link */}
-        <a 
-          href="https://jjsshavedice.com" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="hidden md:block absolute right-4 top-4"
-        >
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-catering-dark opacity-75">Visit our</span>
-            <span className="font-bold text-catering-accent text-sm">JJs Shaved Ice</span>
+    <header className="fixed w-full bg-white bg-opacity-95 z-50 shadow-md">
+      <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center gap-4">
+        {/* Top section with logo and business name */}
+        <div className="flex items-center justify-between w-full md:w-auto">
+          {/* JJs Shaved Ice logo/link - moved to top left */}
+          <a 
+            href="https://jjsshavedice.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            <img 
+              src="https://jjsshavedice.com/wp-content/uploads/2023/06/jjs-logo.png" 
+              alt="JJs Shaved Ice" 
+              className="h-16 md:h-20" 
+            />
+          </a>
+          
+          <div className="hidden md:block pl-6">
+            <Link to="/" className="font-playfair text-2xl md:text-3xl font-bold text-catering-primary">
+              Pacific Island Catering
+            </Link>
           </div>
-        </a>
+          
+          {/* Mobile menu button */}
+          <div className="md:hidden">
+            <Sheet>
+              <SheetTrigger>
+                <MenuIcon className="h-6 w-6" />
+              </SheetTrigger>
+              <SheetContent>
+                <nav className="flex flex-col gap-6 mt-8">
+                  {navLinks.map((link) => (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      className="font-montserrat text-lg text-catering-dark hover:text-catering-primary transition-colors"
+                    >
+                      {link.name}
+                    </a>
+                  ))}
+                  <a 
+                    href="https://jjsshavedice.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 mt-4 pt-4 border-t"
+                  >
+                    <span className="font-bold text-catering-accent">JJs Shaved Ice</span>
+                    <span className="text-xs text-catering-dark opacity-75">↗</span>
+                  </a>
+                </nav>
+              </SheetContent>
+            </Sheet>
+          </div>
+        </div>
+        
+        {/* Mobile business name */}
+        <div className="md:hidden text-center">
+          <Link to="/" className="font-playfair text-2xl font-bold text-catering-primary">
+            Pacific Island Catering
+          </Link>
+        </div>
         
         {/* Desktop navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center ml-auto space-x-8">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="font-montserrat text-catering-dark hover:text-catering-primary text-sm transition-colors"
+              className="font-montserrat text-catering-dark hover:text-catering-primary text-base font-medium transition-colors"
             >
               {link.name}
             </a>
           ))}
         </nav>
-        
-        {/* Mobile navigation */}
-        <Sheet>
-          <SheetTrigger className="md:hidden">
-            <MenuIcon className="h-6 w-6" />
-          </SheetTrigger>
-          <SheetContent>
-            <nav className="flex flex-col gap-6 mt-8">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="font-montserrat text-lg text-catering-dark hover:text-catering-primary transition-colors"
-                >
-                  {link.name}
-                </a>
-              ))}
-              <a 
-                href="https://jjsshavedice.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 mt-4 pt-4 border-t"
-              >
-                <span className="font-bold text-catering-accent">JJs Shaved Ice</span>
-                <span className="text-xs text-catering-dark opacity-75">↗</span>
-              </a>
-            </nav>
-          </SheetContent>
-        </Sheet>
       </div>
     </header>
   );
