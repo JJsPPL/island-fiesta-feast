@@ -67,25 +67,25 @@ const Menu = () => {
     desserts: [
       { 
         name: 'Original Shaved Ice', 
-        description: 'Fine shaved ice with your choice of syrup (from JJs)', 
+        description: 'Fine shaved ice with your choice of syrup', 
         price: '5.99',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-1.jpg'
       },
       { 
         name: 'Rainbow Shaved Ice', 
-        description: 'Colorful shaved ice with multiple flavors (from JJs)', 
+        description: 'Colorful shaved ice with multiple flavors', 
         price: '6.99',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-3.jpg'
       },
       { 
         name: 'Coconut Dream', 
-        description: 'Shaved ice with coconut cream (from JJs)', 
+        description: 'Shaved ice with coconut cream', 
         price: '7.99',
-        image: '/lovable-uploads/b36f3436-8767-4907-ab2d-a00e975fabd0.png'
+        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-4.jpg'
       },
       { 
         name: 'Mango Delight', 
-        description: 'Shaved ice with fresh mango (from JJs)', 
+        description: 'Shaved ice with fresh mango', 
         price: '7.99',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-2.jpg'
       }

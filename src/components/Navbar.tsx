@@ -60,7 +60,11 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 mt-4 pt-4 border-t"
                   >
-                    <span className="font-bold text-catering-accent">JJs Shaved Ice</span>
+                    <img 
+                      src="https://jjsshavedice.com/wp-content/uploads/2023/06/jjs-logo.png" 
+                      alt="JJs Shaved Ice" 
+                      className="h-10" 
+                    />
                     <span className="text-xs text-catering-dark opacity-75">↗</span>
                   </a>
                 </nav>
