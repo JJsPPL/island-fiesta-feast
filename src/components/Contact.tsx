@@ -7,7 +7,7 @@ import { Phone, Mail, Clock, MapPin, Instagram } from "lucide-react";
 import { toast } from "sonner";
 
 const Contact = () => {
-  const [formData, useState] = useState({
+  const [formData, setFormData] = useState({
     name: '',
     email: '',
     eventDate: '',
@@ -17,7 +17,7 @@ const Contact = () => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
-    useState(prev => ({ ...prev, [id]: value }));
+    setFormData(prev => ({ ...prev, [id]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -30,7 +30,7 @@ const Contact = () => {
     });
     
     // Reset form
-    useState({
+    setFormData({
       name: '',
       email: '',
       eventDate: '',
