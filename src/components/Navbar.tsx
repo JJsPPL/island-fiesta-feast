@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center gap-4">
         {/* Top section with logo and business name */}
         <div className="flex items-center justify-between w-full md:w-auto">
-          {/* JJs Shaved Ice logo/link - moved to top left */}
+          {/* JJs Shaved Ice logo/link - larger size */}
           <a 
             href="https://jjsshavedice.com" 
             target="_blank" 
@@ -27,13 +27,13 @@ const Navbar = () => {
             <img 
               src="https://jjsshavedice.com/wp-content/uploads/2023/06/jjs-logo.png" 
               alt="JJs Shaved Ice" 
-              className="h-16 md:h-20" 
+              className="h-20 md:h-24" 
             />
           </a>
           
           <div className="hidden md:block pl-6">
             <Link to="/" className="font-playfair text-2xl md:text-3xl font-bold text-catering-primary">
-              Pacific Island Catering
+              JJs Catering
             </Link>
           </div>
           
@@ -72,7 +72,7 @@ const Navbar = () => {
         {/* Mobile business name */}
         <div className="md:hidden text-center">
           <Link to="/" className="font-playfair text-2xl font-bold text-catering-primary">
-            Pacific Island Catering
+            JJs Catering
           </Link>
         </div>
         

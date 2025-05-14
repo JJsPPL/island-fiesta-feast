@@ -13,29 +13,81 @@ const Menu = () => {
   
   const menuItems = {
     main: [
-      { name: 'BBQ Chicken Fiesta Plate', description: 'Marinated grilled chicken with red rice and lumpia', price: '14.99' },
-      { name: 'Brisket Fiesta Plate', description: 'Slow-roasted brisket served with red rice and lumpia', price: '16.99' },
+      { 
+        name: 'BBQ Chicken Fiesta Plate', 
+        description: 'Marinated grilled chicken with red rice and lumpia', 
+        price: '14.99',
+        image: '/lovable-uploads/3695f5a9-25e0-4bcd-8a7b-edc099448b31.png'
+      },
+      { 
+        name: 'Brisket Fiesta Plate', 
+        description: 'Slow-roasted brisket served with red rice and lumpia', 
+        price: '16.99',
+        image: '/lovable-uploads/ad3e9546-3200-432c-94fd-7e5fd320cd63.png'
+      },
       { name: 'Chicken Kelaguen', description: 'Traditional chopped chicken with lemon, pepper, and onions', price: '13.99' },
       { name: 'Shrimp Kelaguen', description: 'Fresh shrimp with coconut, lemon, and spices', price: '15.99' },
       { name: 'Kimchi Noodles', description: 'Stir-fried noodles with homemade kimchi', price: '12.99' },
       { name: 'Chicken Shish Kebabs', description: 'Marinated chicken skewers with grilled vegetables', price: '14.99' }
     ],
     appetizers: [
-      { name: 'Lumpia', description: 'Crispy Filipino spring rolls with dipping sauce', price: '7.99' },
-      { name: 'Pickled Eggs', description: 'Traditional pickled eggs with spices', price: '6.99' },
-      { name: 'Pickled Papaya', description: 'Tangy pickled green papaya', price: '5.99' },
-      { name: 'Potato Salad', description: 'Classic potato salad with island-style seasoning', price: '4.99' }
+      { 
+        name: 'Lumpia', 
+        description: 'Crispy Filipino spring rolls with dipping sauce', 
+        price: '7.99' 
+      },
+      { 
+        name: 'Pickled Eggs', 
+        description: 'Traditional pickled eggs with spices', 
+        price: '6.99' 
+      },
+      { 
+        name: 'Pickled Papaya', 
+        description: 'Tangy pickled green papaya', 
+        price: '5.99',
+        image: '/lovable-uploads/51b0070c-c135-47ef-aabd-2c1dd48c2d67.png'  
+      },
+      { 
+        name: 'Potato Salad', 
+        description: 'Classic potato salad with island-style seasoning', 
+        price: '4.99' 
+      }
     ],
     drinks: [
-      { name: 'Calamansi Lemonade', description: 'Refreshing citrus drink made with Calamansi lime', price: '3.99' },
+      { 
+        name: 'Calamansi Lemonade', 
+        description: 'Refreshing citrus drink made with Calamansi lime', 
+        price: '3.99',
+        image: '/lovable-uploads/686ce02d-e9c3-4385-9a8b-4642b6ce7a05.png'
+      },
       { name: 'Tropical Fruit Punch', description: 'Blend of tropical fruit juices', price: '3.99' },
       { name: 'Island Iced Tea', description: 'Sweet tea with tropical flavors', price: '3.50' }
     ],
     desserts: [
-      { name: 'Original Shaved Ice', description: 'Fine shaved ice with your choice of syrup (from JJs)', price: '5.99' },
-      { name: 'Rainbow Shaved Ice', description: 'Colorful shaved ice with multiple flavors (from JJs)', price: '6.99' },
-      { name: 'Coconut Dream', description: 'Shaved ice with coconut cream (from JJs)', price: '7.99' },
-      { name: 'Mango Delight', description: 'Shaved ice with fresh mango (from JJs)', price: '7.99' }
+      { 
+        name: 'Original Shaved Ice', 
+        description: 'Fine shaved ice with your choice of syrup (from JJs)', 
+        price: '5.99',
+        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-1.jpg'
+      },
+      { 
+        name: 'Rainbow Shaved Ice', 
+        description: 'Colorful shaved ice with multiple flavors (from JJs)', 
+        price: '6.99',
+        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-3.jpg'
+      },
+      { 
+        name: 'Coconut Dream', 
+        description: 'Shaved ice with coconut cream (from JJs)', 
+        price: '7.99',
+        image: '/lovable-uploads/b36f3436-8767-4907-ab2d-a00e975fabd0.png'
+      },
+      { 
+        name: 'Mango Delight', 
+        description: 'Shaved ice with fresh mango (from JJs)', 
+        price: '7.99',
+        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-2.jpg'
+      }
     ]
   };
 
@@ -71,6 +123,15 @@ const Menu = () => {
                 {menuItems[category.id as keyof typeof menuItems].map((item, index) => (
                   <Card key={index} className="bg-white border-0 shadow-md hover:shadow-lg transition-shadow overflow-hidden">
                     <CardContent className="p-0">
+                      {item.image && (
+                        <div className="h-48 overflow-hidden">
+                          <img 
+                            src={item.image} 
+                            alt={item.name} 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                      )}
                       <div className="h-3 bg-catering-primary"></div>
                       <div className="p-6">
                         <div className="flex justify-between items-start mb-2">
