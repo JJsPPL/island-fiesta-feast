@@ -32,10 +32,10 @@ const Navbar = () => {
             </a>
           </div>
           
-          {/* JJs Catering title - centered */}
+          {/* JJs Caters title - centered */}
           <div className="md:w-1/3 flex justify-center my-4 md:my-0">
             <Link to="/" className="font-playfair text-3xl md:text-4xl font-bold text-catering-primary">
-              JJs Catering
+              JJs Caters
             </Link>
           </div>
           

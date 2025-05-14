@@ -8,8 +8,8 @@ const Hero = () => {
       id="home"
       className="pt-32 md:pt-40 flex flex-col justify-center bg-catering-dark relative overflow-hidden"
     >
-      {/* Hero Content - Further reduced width */}
-      <div className="w-full min-h-[60vh] md:min-h-[70vh] bg-catering-dark flex items-center">
+      {/* Hero Content - Further reduced height */}
+      <div className="w-full bg-catering-dark flex items-center py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="w-full max-w-xl p-8 md:p-10 mx-auto md:mx-0">
             <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">

@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-10 mb-8">
           <div>
-            <h3 className="font-playfair text-xl font-bold mb-4">JJs Catering</h3>
+            <h3 className="font-playfair text-xl font-bold mb-4">JJs Caters</h3>
             <p className="font-montserrat text-gray-300 text-sm">
               Bringing authentic Pacific Island cuisine with Asian and American influences to your events.
             </p>
@@ -90,7 +90,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 pt-8 mt-10 text-center">
           <p className="font-montserrat text-sm text-gray-400">
-            &copy; {currentYear} JJs Catering. All rights reserved.
+            &copy; {currentYear} JJs Caters. All rights reserved.
           </p>
           <p className="font-montserrat text-xs text-gray-500 mt-2">
             Website designed with ❤️
