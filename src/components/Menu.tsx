@@ -2,8 +2,6 @@
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
-import ImageGallery from './ImageGallery';
 
 interface MenuItem {
   name: string;
@@ -19,10 +17,6 @@ interface MenuCategories {
 }
 
 const Menu = () => {
-  const [galleryOpen, setGalleryOpen] = useState(false);
-  const [galleryImages, setGalleryImages] = useState<string[]>([]);
-  const [initialIndex, setInitialIndex] = useState(0);
-  
   const categories = [
     { id: 'main', label: 'Main Dishes' },
     { id: 'appetizers', label: 'Appetizers' },
@@ -93,29 +87,6 @@ const Menu = () => {
     ]
   };
 
-  const getAllImages = () => {
-    const images: string[] = [];
-    
-    Object.values(menuItems).forEach(category => {
-      category.forEach(item => {
-        if (item.image) {
-          images.push(item.image);
-        }
-      });
-    });
-    
-    return images;
-  };
-
-  const handleImageClick = (image: string) => {
-    const allImages = getAllImages();
-    const index = allImages.indexOf(image);
-    
-    setGalleryImages(allImages);
-    setInitialIndex(index >= 0 ? index : 0);
-    setGalleryOpen(true);
-  };
-
   return (
     <section id="menu" className="py-20 bg-catering-light">
       <div className="container mx-auto px-4">
@@ -148,15 +119,6 @@ const Menu = () => {
                 {menuItems[category.id as keyof typeof menuItems].map((item, index) => (
                   <Card key={index} className="bg-white border-0 shadow-md hover:shadow-lg transition-shadow overflow-hidden">
                     <CardContent className="p-0">
-                      {item.image && (
-                        <div className="relative h-40 overflow-hidden cursor-pointer" onClick={() => handleImageClick(item.image!)}>
-                          <img 
-                            src={item.image} 
-                            alt={item.name} 
-                            className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform"
-                          />
-                        </div>
-                      )}
                       <div className="h-3 bg-catering-primary"></div>
                       <div className="p-6">
                         <div className="flex justify-between items-start mb-2">
@@ -181,13 +143,6 @@ const Menu = () => {
           </p>
         </div>
       </div>
-
-      <ImageGallery 
-        images={galleryImages}
-        initialIndex={initialIndex}
-        isOpen={galleryOpen}
-        onClose={() => setGalleryOpen(false)}
-      />
     </section>
   );
 };
