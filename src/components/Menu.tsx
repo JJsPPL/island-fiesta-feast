@@ -36,7 +36,8 @@ const Menu = () => {
       },
       { 
         name: 'Pickled Eggs', 
-        description: 'Traditional pickled eggs with spices' 
+        description: 'Traditional pickled eggs with spices',
+        image: '/lovable-uploads/d51c58ce-04ff-4275-8d08-293b8972414d.png'
       },
       { 
         name: 'Pickled Papaya', 
