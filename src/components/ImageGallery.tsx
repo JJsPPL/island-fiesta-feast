@@ -24,7 +24,7 @@ const ImageGallery = ({ images, initialIndex, isOpen, onClose }: ImageGalleryPro
     <Dialog open={isOpen} onOpenChange={(open) => !open && onClose()}>
       <DialogContent className="sm:max-w-3xl p-0 overflow-hidden bg-black/90" onEscapeKeyDown={onClose}>
         <div className="relative">
-          <Carousel className="w-full" defaultIndex={initialIndex}>
+          <Carousel className="w-full" opts={{ startIndex: initialIndex }}>
             <CarouselContent>
               {images.map((image, index) => (
                 <CarouselItem key={index}>
