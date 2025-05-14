@@ -17,88 +17,62 @@ const Menu = () => {
       { 
         name: 'BBQ Chicken Fiesta Plate', 
         description: 'Marinated grilled chicken with red rice and lumpia', 
-        price: '14.99',
+        price: '15.00',
         image: '/lovable-uploads/3695f5a9-25e0-4bcd-8a7b-edc099448b31.png'
       },
       { 
         name: 'Brisket Fiesta Plate', 
         description: 'Slow-roasted brisket served with red rice and lumpia', 
-        price: '16.99',
+        price: '20.00',
         image: '/lovable-uploads/ad3e9546-3200-432c-94fd-7e5fd320cd63.png'
       },
-      { name: 'Chicken Kelaguen', description: 'Traditional chopped chicken with lemon, pepper, and onions', price: '13.99' },
-      { name: 'Shrimp Kelaguen', description: 'Fresh shrimp with coconut, lemon, and spices', price: '15.99' },
-      { name: 'Kimchi Noodles', description: 'Stir-fried noodles with homemade kimchi', price: '12.99' },
-      { name: 'Chicken Shish Kebabs', description: 'Marinated chicken skewers with grilled vegetables', price: '14.99' }
+      { name: 'Chicken Kelaguen', description: 'Traditional chopped chicken with lemon, pepper, and onions', price: '10.00' },
+      { name: 'Shrimp Kelaguen', description: 'Fresh shrimp with coconut, lemon, and spices', price: '12.00' },
+      { name: 'Kimchi Noodles', description: 'Stir-fried noodles with homemade kimchi', price: '10.00' },
+      { name: 'Chicken Shish Kebabs', description: 'Marinated chicken skewers with grilled vegetables', price: '10.00' }
     ],
     appetizers: [
       { 
         name: 'Lumpia', 
         description: 'Crispy Filipino spring rolls with dipping sauce', 
-        price: '7.99' 
+        price: '5.00' 
       },
       { 
         name: 'Pickled Eggs', 
         description: 'Traditional pickled eggs with spices', 
-        price: '6.99' 
+        price: '2.00' 
       },
       { 
         name: 'Pickled Papaya', 
         description: 'Tangy pickled green papaya', 
-        price: '5.99',
+        price: '12.00',
         image: '/lovable-uploads/51b0070c-c135-47ef-aabd-2c1dd48c2d67.png'  
       },
       { 
         name: 'Potato Salad', 
         description: 'Classic potato salad with island-style seasoning', 
-        price: '4.99' 
+        price: '35.00 pan' 
       }
     ],
     drinks: [
       { 
         name: 'Calamansi Lemonade', 
         description: 'Refreshing citrus drink made with Calamansi lime', 
-        price: '3.99',
+        price: '5.00',
         image: '/lovable-uploads/686ce02d-e9c3-4385-9a8b-4642b6ce7a05.png'
-      },
-      { name: 'Tropical Fruit Punch', description: 'Blend of tropical fruit juices', price: '3.99' },
-      { name: 'Island Iced Tea', description: 'Sweet tea with tropical flavors', price: '3.50' }
+      }
     ],
     desserts: [
       { 
         name: 'Original Shaved Ice', 
         description: 'Fine shaved ice topped with your choice of syrup', 
-        price: '5.00',
+        price: '8.00',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-1.jpg'
       },
       { 
-        name: 'Combo Shaved Ice', 
-        description: 'Shaved ice with your choice of 2 flavors', 
-        price: '6.00',
-        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-5.jpg'
-      },
-      { 
-        name: 'Rainbow Shaved Ice', 
-        description: 'Shaved ice with multiple flavors and sweetened condensed milk', 
-        price: '7.00',
-        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-3.jpg'
-      },
-      { 
-        name: 'Snow Cap', 
-        description: 'Shaved ice with your favorite flavor topped with sweetened condensed milk', 
-        price: '6.00',
-        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/snowcap.jpg'
-      },
-      { 
-        name: 'Coconut Dream', 
-        description: 'Shaved ice with coconut syrup and sweetened condensed milk', 
-        price: '7.00',
-        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-4.jpg'
-      },
-      { 
-        name: 'Mango Delight', 
-        description: 'Shaved ice with mango syrup and sweetened condensed milk', 
-        price: '7.00',
+        name: 'Bingsu', 
+        description: 'Korean shaved ice dessert with sweet toppings', 
+        price: '12.00',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-2.jpg'
       }
     ]

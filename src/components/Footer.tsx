@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -13,9 +12,6 @@ const Footer = () => {
             <h3 className="font-playfair text-xl font-bold mb-4">JJs Catering</h3>
             <p className="font-montserrat text-gray-300 text-sm">
               Bringing authentic Pacific Island cuisine with Asian and American influences to your events.
-            </p>
-            <p className="font-montserrat text-gray-300 text-sm mt-2">
-              JJs Catering is the umbrella corporation of JJs Shaved Ice.
             </p>
           </div>
           
