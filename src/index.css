@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +98,19 @@
 
   body {
     @apply bg-background text-foreground;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Add a custom class for food images */
+  .food-image {
+    @apply object-cover w-full h-full rounded-lg shadow-md transition-transform duration-300;
+  }
+  
+  .food-image:hover {
+    @apply scale-105;
   }
 }
