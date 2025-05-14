@@ -77,8 +77,16 @@ const Footer = () => {
             </div>
             
             <div className="bg-white bg-opacity-10 p-5 rounded-lg">
-              <h4 className="font-montserrat font-bold mb-2 text-catering-accent">JQP Corp LLC</h4>
-              <p className="text-sm text-gray-300">Providing innovative solutions for all your business needs in today's competitive market.</p>
+              <h4 className="font-montserrat font-bold mb-2 text-catering-accent">JJsShavedIce.com</h4>
+              <p className="text-sm text-gray-300">Authentic Hawaiian-style shaved ice with a variety of tropical flavors and toppings.</p>
+              <a 
+                href="https://JJsShavedIce.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-xs text-catering-primary hover:text-white mt-2 inline-block"
+              >
+                Learn More →
+              </a>
             </div>
             
             <div className="bg-white bg-opacity-10 p-5 rounded-lg">
