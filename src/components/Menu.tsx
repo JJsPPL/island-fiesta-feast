@@ -67,26 +67,38 @@ const Menu = () => {
     desserts: [
       { 
         name: 'Original Shaved Ice', 
-        description: 'Fine shaved ice with your choice of syrup', 
-        price: '5.99',
+        description: 'Fine shaved ice topped with your choice of syrup', 
+        price: '5.00',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-1.jpg'
       },
       { 
+        name: 'Combo Shaved Ice', 
+        description: 'Shaved ice with your choice of 2 flavors', 
+        price: '6.00',
+        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-5.jpg'
+      },
+      { 
         name: 'Rainbow Shaved Ice', 
-        description: 'Colorful shaved ice with multiple flavors', 
-        price: '6.99',
+        description: 'Shaved ice with multiple flavors and sweetened condensed milk', 
+        price: '7.00',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-3.jpg'
       },
       { 
+        name: 'Snow Cap', 
+        description: 'Shaved ice with your favorite flavor topped with sweetened condensed milk', 
+        price: '6.00',
+        image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/snowcap.jpg'
+      },
+      { 
         name: 'Coconut Dream', 
-        description: 'Shaved ice with coconut cream', 
-        price: '7.99',
+        description: 'Shaved ice with coconut syrup and sweetened condensed milk', 
+        price: '7.00',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-4.jpg'
       },
       { 
         name: 'Mango Delight', 
-        description: 'Shaved ice with fresh mango', 
-        price: '7.99',
+        description: 'Shaved ice with mango syrup and sweetened condensed milk', 
+        price: '7.00',
         image: 'https://jjsshavedice.com/wp-content/uploads/2023/06/gallery-2.jpg'
       }
     ]

@@ -35,13 +35,12 @@ const About = () => {
               Asian and American influences to create a truly memorable meal for your guests.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="rounded-lg overflow-hidden shadow-lg transform transition hover:scale-105">
-              <div className="h-64 bg-gradient-to-br from-catering-rice to-catering-accent rounded-lg"></div>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-lg transform transition hover:scale-105 mt-8">
-              <div className="h-64 bg-gradient-to-br from-catering-primary to-catering-secondary rounded-lg"></div>
-            </div>
+          <div className="grid grid-cols-1 gap-4">
+            <img 
+              src="/lovable-uploads/ad3e9546-3200-432c-94fd-7e5fd320cd63.png" 
+              alt="Pacific Island Cuisine" 
+              className="rounded-lg shadow-lg w-full h-auto"
+            />
           </div>
         </div>
       </div>
