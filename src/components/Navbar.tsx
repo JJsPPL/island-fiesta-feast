@@ -25,7 +25,7 @@ const Navbar = () => {
             className="flex items-center"
           >
             <img 
-              src="https://jjsshavedice.com/wp-content/uploads/2023/06/jjs-logo.png" 
+              src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
               alt="JJs Shaved Ice" 
               className="h-20 md:h-24" 
             />
@@ -61,7 +61,7 @@ const Navbar = () => {
                     className="flex items-center gap-2 mt-4 pt-4 border-t"
                   >
                     <img 
-                      src="https://jjsshavedice.com/wp-content/uploads/2023/06/jjs-logo.png" 
+                      src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
                       alt="JJs Shaved Ice" 
                       className="h-10" 
                     />
