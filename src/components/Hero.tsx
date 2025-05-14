@@ -8,10 +8,10 @@ const Hero = () => {
       id="home"
       className="pt-32 md:pt-40 flex flex-col justify-center bg-catering-dark relative overflow-hidden"
     >
-      {/* Hero Content - Direct background instead of image */}
+      {/* Hero Content - Reduced width with max-width */}
       <div className="w-full min-h-[60vh] md:min-h-[70vh] bg-catering-dark flex items-center">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl p-8 md:p-10">
+          <div className="max-w-2xl p-8 md:p-10 mx-auto md:mx-0">
             <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Traditional Pacific Island Cuisine
             </h1>
