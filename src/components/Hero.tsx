@@ -8,10 +8,10 @@ const Hero = () => {
       id="home"
       className="pt-32 md:pt-40 flex flex-col justify-center bg-catering-dark relative overflow-hidden"
     >
-      {/* Hero Content - Reduced width with max-width */}
+      {/* Hero Content - Further reduced width */}
       <div className="w-full min-h-[60vh] md:min-h-[70vh] bg-catering-dark flex items-center">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl p-8 md:p-10 mx-auto md:mx-0">
+          <div className="w-full max-w-xl p-8 md:p-10 mx-auto md:mx-0">
             <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Traditional Pacific Island Cuisine
             </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
               <Button
                 asChild
                 variant="outline"
-                className="border-white text-white hover:bg-white/10 font-bold py-3 px-8"
+                className="border-white text-catering-dark bg-white hover:bg-white/90 hover:text-catering-primary font-bold py-3 px-8"
               >
                 <a href="#contact">Contact Us</a>
               </Button>
