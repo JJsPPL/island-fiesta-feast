@@ -1,11 +1,44 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, Clock, MapPin, Instagram } from "lucide-react";
+import { toast } from "sonner";
 
 const Contact = () => {
+  const [formData, useState] = useState({
+    name: '',
+    email: '',
+    eventDate: '',
+    guests: '',
+    message: ''
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    useState(prev => ({ ...prev, [id]: value }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // In a real implementation, this would send the data to a server
+    // For now, we'll just show a success message
+    toast.success("Your request has been sent to simplymee0011@gmail.com", {
+      description: "We'll get back to you soon!"
+    });
+    
+    // Reset form
+    useState({
+      name: '',
+      email: '',
+      eventDate: '',
+      guests: '',
+      message: ''
+    });
+  };
+
   return (
     <section id="contact" className="py-20 bg-catering-light">
       <div className="container mx-auto px-4">
@@ -61,11 +94,19 @@ const Contact = () => {
                   <p className="font-montserrat text-gray-600">By appointment only</p>
                 </div>
               </div>
+              
+              <div className="flex items-start space-x-4">
+                <Mail className="h-5 w-5 text-catering-accent mt-1" />
+                <div>
+                  <h4 className="font-montserrat font-semibold text-catering-dark">Email</h4>
+                  <p className="font-montserrat text-gray-600">simplymee0011@gmail.com</p>
+                </div>
+              </div>
             </div>
           </div>
           
           <div>
-            <form className="space-y-6 bg-white p-8 rounded-lg shadow-md">
+            <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-lg shadow-md">
               <div>
                 <label htmlFor="name" className="font-montserrat font-medium text-catering-dark block mb-2">
                   Name
@@ -73,7 +114,10 @@ const Contact = () => {
                 <Input 
                   id="name" 
                   placeholder="Your Name" 
-                  className="font-montserrat border-gray-300 focus:border-catering-primary" 
+                  className="font-montserrat border-gray-300 focus:border-catering-primary"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               
@@ -85,18 +129,24 @@ const Contact = () => {
                   id="email" 
                   type="email" 
                   placeholder="your.email@example.com" 
-                  className="font-montserrat border-gray-300 focus:border-catering-primary" 
+                  className="font-montserrat border-gray-300 focus:border-catering-primary"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               
               <div>
-                <label htmlFor="event-date" className="font-montserrat font-medium text-catering-dark block mb-2">
+                <label htmlFor="eventDate" className="font-montserrat font-medium text-catering-dark block mb-2">
                   Event Date
                 </label>
                 <Input 
-                  id="event-date" 
+                  id="eventDate" 
                   type="date" 
-                  className="font-montserrat border-gray-300 focus:border-catering-primary" 
+                  className="font-montserrat border-gray-300 focus:border-catering-primary"
+                  value={formData.eventDate}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               
@@ -108,7 +158,10 @@ const Contact = () => {
                   id="guests" 
                   type="number" 
                   placeholder="50" 
-                  className="font-montserrat border-gray-300 focus:border-catering-primary" 
+                  className="font-montserrat border-gray-300 focus:border-catering-primary"
+                  value={formData.guests}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               
@@ -119,7 +172,10 @@ const Contact = () => {
                 <Textarea 
                   id="message" 
                   placeholder="Tell us about your event and any specific requests..." 
-                  className="font-montserrat min-h-[120px] border-gray-300 focus:border-catering-primary" 
+                  className="font-montserrat min-h-[120px] border-gray-300 focus:border-catering-primary"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               

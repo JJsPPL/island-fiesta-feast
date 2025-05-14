@@ -15,7 +15,7 @@ const About = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-10 items-center">
+        <div className="grid md:grid-cols-1 gap-10 items-center">
           <div>
             <h3 className="font-playfair text-2xl font-bold mb-4 text-catering-primary">
               A Taste of the Islands
@@ -34,13 +34,6 @@ const About = () => {
               rich flavors and traditions of Pacific Island cuisine while incorporating
               Asian and American influences to create a truly memorable meal for your guests.
             </p>
-          </div>
-          <div className="grid grid-cols-1 gap-4">
-            <img 
-              src="/lovable-uploads/ad3e9546-3200-432c-94fd-7e5fd320cd63.png" 
-              alt="Pacific Island Cuisine" 
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
           </div>
         </div>
       </div>
