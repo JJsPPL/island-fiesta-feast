@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, Clock, MapPin } from "lucide-react";
+import { Phone, Mail, Clock, MapPin, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -25,7 +25,7 @@ const Contact = () => {
               Get in Touch
             </h3>
             <p className="font-montserrat text-gray-700 mb-8">
-              We're ready to create an unforgettable culinary experience for your next event. 
+              We'd love to hear from you! Booking for private events is available.
               Fill out the form or contact us directly to discuss your catering needs.
             </p>
             
@@ -34,15 +34,15 @@ const Contact = () => {
                 <Phone className="h-5 w-5 text-catering-accent mt-1" />
                 <div>
                   <h4 className="font-montserrat font-semibold text-catering-dark">Phone</h4>
-                  <p className="font-montserrat text-gray-600">(671) 483-7372</p>
+                  <p className="font-montserrat text-gray-600">(503) 707-7679</p>
                 </div>
               </div>
               
               <div className="flex items-start space-x-4">
-                <Mail className="h-5 w-5 text-catering-accent mt-1" />
+                <Instagram className="h-5 w-5 text-catering-accent mt-1" />
                 <div>
-                  <h4 className="font-montserrat font-semibold text-catering-dark">Email</h4>
-                  <p className="font-montserrat text-gray-600">jjsshavedice@gmail.com</p>
+                  <h4 className="font-montserrat font-semibold text-catering-dark">Instagram</h4>
+                  <p className="font-montserrat text-gray-600">@jjshavedice2024</p>
                 </div>
               </div>
               
@@ -50,7 +50,7 @@ const Contact = () => {
                 <MapPin className="h-5 w-5 text-catering-accent mt-1" />
                 <div>
                   <h4 className="font-montserrat font-semibold text-catering-dark">Location</h4>
-                  <p className="font-montserrat text-gray-600">15000 Nelson Court, Guam, USA</p>
+                  <p className="font-montserrat text-gray-600">Portland/Vancouver Area, Oregon/Washington</p>
                 </div>
               </div>
               
@@ -58,9 +58,7 @@ const Contact = () => {
                 <Clock className="h-5 w-5 text-catering-accent mt-1" />
                 <div>
                   <h4 className="font-montserrat font-semibold text-catering-dark">Business Hours</h4>
-                  <p className="font-montserrat text-gray-600">Monday - Friday: 10am - 8pm</p>
-                  <p className="font-montserrat text-gray-600">Saturday: 10am - 8pm</p>
-                  <p className="font-montserrat text-gray-600">Sunday: 10am - 8pm</p>
+                  <p className="font-montserrat text-gray-600">By appointment only</p>
                 </div>
               </div>
             </div>

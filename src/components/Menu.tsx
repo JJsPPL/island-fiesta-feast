@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Menu = () => {
   const categories = [
@@ -124,12 +125,14 @@ const Menu = () => {
                   <Card key={index} className="bg-white border-0 shadow-md hover:shadow-lg transition-shadow overflow-hidden">
                     <CardContent className="p-0">
                       {item.image && (
-                        <div className="h-48 overflow-hidden">
-                          <img 
-                            src={item.image} 
-                            alt={item.name} 
-                            className="w-full h-full object-cover"
-                          />
+                        <div className="relative">
+                          <AspectRatio ratio={16/9}>
+                            <img 
+                              src={item.image} 
+                              alt={item.name} 
+                              className="w-full h-full object-cover"
+                            />
+                          </AspectRatio>
                         </div>
                       )}
                       <div className="h-3 bg-catering-primary"></div>
@@ -149,7 +152,7 @@ const Menu = () => {
                 <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="text-sm font-montserrat text-gray-500">
-                      Desserts provided in partnership with
+                      Desserts provided by our subsidiary company
                     </span>
                     <a 
                       href="https://jjsshavedice.com" 
