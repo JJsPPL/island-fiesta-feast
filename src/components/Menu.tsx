@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
@@ -28,11 +27,11 @@ const Menu = () => {
     main: [
       { 
         name: 'BBQ Chicken Fiesta Plate', 
-        description: 'Marinated grilled chicken with red rice and lumpia'
+        description: 'Marinated grilled chicken with red rice, lumpia and your choice of potato salad or kimchee noodles'
       },
       { 
         name: 'Brisket Fiesta Plate', 
-        description: 'Slow-roasted brisket served with red rice and lumpia'
+        description: 'Slow-roasted brisket served with red rice, lumpia and your choice of potato salad or kimchee noodles'
       }
     ],
     appetizers: [
