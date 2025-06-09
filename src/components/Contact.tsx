@@ -44,7 +44,7 @@ const Contact = () => {
               <MapPin className="h-5 w-5 text-catering-accent mt-1" />
               <div>
                 <h4 className="font-montserrat font-semibold text-catering-dark">Location</h4>
-                <p className="font-montserrat text-gray-600">Portland, Oregon</p>
+                <p className="font-montserrat text-gray-600">Portland, Oregon - Metro area</p>
               </div>
             </div>
             
