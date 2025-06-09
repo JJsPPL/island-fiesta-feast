@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, Clock, MapPin, Instagram } from "lucide-react";
 
@@ -45,7 +44,7 @@ const Contact = () => {
               <MapPin className="h-5 w-5 text-catering-accent mt-1" />
               <div>
                 <h4 className="font-montserrat font-semibold text-catering-dark">Location</h4>
-                <p className="font-montserrat text-gray-600">Portland/Vancouver Area, Oregon/Washington</p>
+                <p className="font-montserrat text-gray-600">Portland, Oregon</p>
               </div>
             </div>
             
