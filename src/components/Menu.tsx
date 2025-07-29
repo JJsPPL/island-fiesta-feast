@@ -138,6 +138,21 @@ const Menu = () => {
         name: 'Catering Spread',
         description: 'Professional catering setup with various appetizers and sides',
         image: '/lovable-uploads/953549c4-85fd-4595-8a48-60a522c57d2b.png'
+      },
+      {
+        name: 'Grilled Chicken & Peppers',
+        description: 'Sautéed bell peppers, onions, and seasoned chicken strips',
+        image: '/lovable-uploads/79e8b0aa-a328-43b1-97d9-0675a9f3f790.png'
+      },
+      {
+        name: 'Smoked BBQ Ribs',
+        description: 'Slow-smoked pork ribs with our signature dry rub',
+        image: '/lovable-uploads/18f612a0-07a8-4888-ada8-c406e568b4e2.png'
+      },
+      {
+        name: 'Roasted Holiday Turkey',
+        description: 'Perfectly roasted turkey with seasonal garnish and vegetables',
+        image: '/lovable-uploads/7756d7fb-89d5-4c1e-b04d-564b9f0d22e7.png'
       }
     ]
   };
