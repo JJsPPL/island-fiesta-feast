@@ -27,7 +27,7 @@ const Menu = () => {
     { id: 'appetizers', label: 'Appetizers' },
     { id: 'drinks', label: 'Drinks' },
     { id: 'desserts', label: 'Desserts' },
-    { id: 'sides', label: 'Sides' }
+    { id: 'sides', label: 'Party Platters' }
   ];
   
   const menuItems: MenuCategories = {
