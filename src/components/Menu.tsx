@@ -13,6 +13,7 @@ interface MenuCategories {
   appetizers: MenuItem[];
   drinks: MenuItem[];
   desserts: MenuItem[];
+  sides: MenuItem[];
 }
 
 const Menu = () => {
@@ -20,7 +21,8 @@ const Menu = () => {
     { id: 'main', label: 'Main Dishes' },
     { id: 'appetizers', label: 'Appetizers' },
     { id: 'drinks', label: 'Drinks' },
-    { id: 'desserts', label: 'Desserts' }
+    { id: 'desserts', label: 'Desserts' },
+    { id: 'sides', label: 'Sides' }
   ];
   
   const menuItems: MenuCategories = {
@@ -75,6 +77,13 @@ const Menu = () => {
         name: 'Craffle',
         description: 'Delicious croissant waffle topped with whipped cream, bananas, and chocolate'
       }
+    ],
+    sides: [
+      {
+        name: 'Fresh Fruit Platter',
+        description: 'Beautiful arrangement of seasonal fresh fruits with a creamy dip',
+        image: '/lovable-uploads/8974fcd4-f7fb-4c99-b64c-475f744cb334.png'
+      }
     ]
   };
 
@@ -111,6 +120,15 @@ const Menu = () => {
                   <Card key={index} className="bg-white border-0 shadow-md hover:shadow-lg transition-shadow overflow-hidden">
                     <CardContent className="p-0">
                       <div className="h-3 bg-catering-primary"></div>
+                      {item.image && (
+                        <div className="aspect-video overflow-hidden">
+                          <img 
+                            src={item.image} 
+                            alt={item.name}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                      )}
                       <div className="p-6">
                         <div className="flex justify-between items-start mb-2">
                           <h3 className="font-playfair font-bold text-lg text-catering-dark">{item.name}</h3>
