@@ -25,8 +25,8 @@ const Navbar = () => {
               className="flex items-center"
             >
               <img 
-                src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
-                alt="JJs Shaved Ice" 
+                src="/lovable-uploads/9d170a66-4f53-49d3-b3d6-7efa1b1a266e.png" 
+                alt="JJs Caters" 
                 className="h-24 md:h-28" 
               />
             </a>
@@ -65,8 +65,8 @@ const Navbar = () => {
                       className="flex items-center gap-2 mt-4 pt-4 border-t"
                     >
                       <img 
-                        src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
-                        alt="JJs Shaved Ice" 
+                        src="/lovable-uploads/9d170a66-4f53-49d3-b3d6-7efa1b1a266e.png" 
+                        alt="JJs Caters" 
                         className="h-12" 
                       />
                       <span className="text-xs text-catering-dark opacity-75">↗</span>
