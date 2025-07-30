@@ -40,7 +40,7 @@ const Navbar = () => {
               className="h-16 md:h-20" 
             />
             <Link to="/" className="font-playfair text-3xl md:text-4xl font-bold text-catering-primary">
-              JJs Caters
+              JJ's Caters
             </Link>
           </div>
           
