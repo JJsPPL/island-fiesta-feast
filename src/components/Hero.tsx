@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
             
             {/* Right side - Logo */}
-            <div className="flex justify-center md:justify-center md:pl-8">
+            <div className="flex justify-center md:justify-center md:pl-4 md:-ml-4">
               <img 
                 src="/lovable-uploads/b993cdad-982f-4e75-aa26-a75d288e4c6e.png" 
                 alt="JJ's Caters" 
