@@ -91,32 +91,32 @@ const Menu = () => {
         image: '/lovable-uploads/c471be5d-8a5e-4c57-9882-35cbac88cc8c.png'
       },
       {
-        name: 'Mango Cream Shaved Ice',
+        name: 'Mango Bingsu',
         description: 'Tropical mango shaved ice topped with whipped cream and fruit',
         image: '/lovable-uploads/a45a54ac-0b03-4238-a481-7796c5c304b1.png'
       },
       {
-        name: 'Strawberry Cream Special',
+        name: 'Strawberry Bingsu',
         description: 'Shaved ice with strawberry syrup, whipped cream, and fresh strawberry pieces',
         image: '/lovable-uploads/6dc13440-a76b-454e-b020-5ba678024362.png'
       },
       {
-        name: 'Birthday Cake Shaved Ice',
+        name: 'Cotton Candy Bingsu',
         description: 'Festive multi-colored shaved ice with whipped cream and sprinkles',
         image: '/lovable-uploads/5a57e79d-a28f-47ef-9b80-c4436d303450.png'
       },
       {
-        name: 'Oreo Waffle',
+        name: 'Oreo Craffle',
         description: 'Golden waffle topped with Oreo cookies, whipped cream, and chocolate',
         image: '/lovable-uploads/2ca6126b-b536-4115-8a18-30a80714d9a2.png'
       },
       {
-        name: 'Strawberry Waffle',
+        name: 'Strawberry Craffle',
         description: 'Fresh waffle with sliced strawberries, whipped cream, and syrup',
         image: '/lovable-uploads/bac25181-6235-475f-95c2-e47ef0fe8c78.png'
       },
       {
-        name: 'Banana Chocolate Waffle',
+        name: 'Banana Chocolate Craffle',
         description: 'Crispy waffle with banana slices, chocolate drizzle, and whipped cream',
         image: '/lovable-uploads/bd4008b8-bce4-4941-87ca-4776d1923678.png'
       }
