@@ -25,15 +25,20 @@ const Navbar = () => {
               className="flex items-center"
             >
               <img 
-                src="/lovable-uploads/9d170a66-4f53-49d3-b3d6-7efa1b1a266e.png" 
-                alt="JJs Caters" 
+                src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
+                alt="JJs Shaved Ice" 
                 className="h-24 md:h-28" 
               />
             </a>
           </div>
           
-          {/* JJs Caters title - centered */}
-          <div className="md:w-1/3 flex justify-center my-4 md:my-0">
+          {/* JJs Caters title and logo - centered */}
+          <div className="md:w-1/3 flex justify-center items-center gap-4 my-4 md:my-0">
+            <img 
+              src="/lovable-uploads/9d170a66-4f53-49d3-b3d6-7efa1b1a266e.png" 
+              alt="JJs Caters" 
+              className="h-16 md:h-20" 
+            />
             <Link to="/" className="font-playfair text-3xl md:text-4xl font-bold text-catering-primary">
               JJs Caters
             </Link>
@@ -65,8 +70,8 @@ const Navbar = () => {
                       className="flex items-center gap-2 mt-4 pt-4 border-t"
                     >
                       <img 
-                        src="/lovable-uploads/9d170a66-4f53-49d3-b3d6-7efa1b1a266e.png" 
-                        alt="JJs Caters" 
+                        src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
+                        alt="JJs Shaved Ice" 
                         className="h-12" 
                       />
                       <span className="text-xs text-catering-dark opacity-75">↗</span>
