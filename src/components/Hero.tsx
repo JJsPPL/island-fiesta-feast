@@ -11,27 +11,39 @@ const Hero = () => {
       {/* Hero Content - Further reduced height */}
       <div className="w-full bg-catering-dark flex items-center py-12 md:py-16">
         <div className="container mx-auto px-4">
-          <div className="w-full max-w-xl p-8 md:p-10 mx-auto md:mx-0">
-            <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Traditional Pacific Island Cuisine
-            </h1>
-            <p className="font-montserrat text-lg text-gray-100 mb-8">
-              Premium catering featuring authentic Pacific Island dishes with Asian and American influences
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button
-                asChild
-                className="bg-catering-primary hover:bg-catering-secondary text-white font-bold py-3 px-8"
-              >
-                <a href="#menu">View Our Menu</a>
-              </Button>
-              <Button
-                asChild
-                variant="outline"
-                className="border-white text-catering-dark bg-white hover:bg-white/90 hover:text-catering-primary font-bold py-3 px-8"
-              >
-                <a href="#contact">Contact Us</a>
-              </Button>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Left side - Text content */}
+            <div className="w-full max-w-xl p-8 md:p-10">
+              <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                Traditional Pacific Island Cuisine
+              </h1>
+              <p className="font-montserrat text-lg text-gray-100 mb-8">
+                Premium catering featuring authentic Pacific Island dishes with Asian and American influences
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                <Button
+                  asChild
+                  className="bg-catering-primary hover:bg-catering-secondary text-white font-bold py-3 px-8"
+                >
+                  <a href="#menu">View Our Menu</a>
+                </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-white text-catering-dark bg-white hover:bg-white/90 hover:text-catering-primary font-bold py-3 px-8"
+                >
+                  <a href="#contact">Contact Us</a>
+                </Button>
+              </div>
+            </div>
+            
+            {/* Right side - Logo */}
+            <div className="flex justify-center md:justify-end">
+              <img 
+                src="/lovable-uploads/b993cdad-982f-4e75-aa26-a75d288e4c6e.png" 
+                alt="JJ's Caters" 
+                className="w-64 md:w-80 lg:w-96 h-auto opacity-90 filter brightness-110" 
+              />
             </div>
           </div>
         </div>
