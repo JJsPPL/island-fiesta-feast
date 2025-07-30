@@ -16,17 +16,24 @@ const Navbar = () => {
     <header className="fixed w-full bg-white bg-opacity-95 z-50 shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
-          {/* Empty space for layout balance */}
+          {/* JJs Shaved Ice logo - larger size */}
           <div className="md:w-1/3">
+            <a 
+              href="https://jjsshavedice.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
+              <img 
+                src="/lovable-uploads/d05d7ee7-2f7c-4c61-9259-85ed8c05e207.png" 
+                alt="JJs Shaved Ice" 
+                className="h-24 md:h-28" 
+              />
+            </a>
           </div>
           
-          {/* JJs Caters title and logo - centered */}
-          <div className="md:w-1/3 flex justify-center items-center gap-4 my-4 md:my-0">
-            <img 
-              src="/lovable-uploads/9d170a66-4f53-49d3-b3d6-7efa1b1a266e.png" 
-              alt="JJs Caters" 
-              className="h-16 md:h-20" 
-            />
+          {/* JJ's Caters title - centered */}
+          <div className="md:w-1/3 flex justify-center my-4 md:my-0">
             <Link to="/" className="font-playfair text-3xl md:text-4xl font-bold text-catering-primary">
               JJ's Caters
             </Link>
