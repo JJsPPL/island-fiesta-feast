@@ -123,6 +123,31 @@ const Menu = () => {
     ],
     sides: [
       {
+        name: 'Holiday Catering Spread',
+        description: 'Festive sandwich platters with cookies, muffins, and pastries',
+        image: '/lovable-uploads/event-platter-1.jpg'
+      },
+      {
+        name: 'Full Event Buffet',
+        description: 'Complete catering setup with sandwiches, pastries, and sweet treats',
+        image: '/lovable-uploads/event-platter-2.jpg'
+      },
+      {
+        name: 'Sandwich & Pastry Platter',
+        description: 'Turkey provolone sandwiches with pumpkin turnovers and chocolate cookies',
+        image: '/lovable-uploads/event-platter-3.jpg'
+      },
+      {
+        name: 'Artisan Sandwich Display',
+        description: 'Ham Swiss sandwiches with pumpkin turnovers and festive plates',
+        image: '/lovable-uploads/event-platter-4.jpg'
+      },
+      {
+        name: 'Premium Charcuterie Platter',
+        description: 'Artisanal meats, cheeses, olives, artichokes, and gourmet crackers',
+        image: '/lovable-uploads/event-platter-5.jpg'
+      },
+      {
         name: 'Fresh Fruit Platter',
         description: 'Beautiful arrangement of seasonal fresh fruits with a creamy dip',
         image: '/lovable-uploads/8974fcd4-f7fb-4c99-b64c-475f744cb334.png'
@@ -166,11 +191,6 @@ const Menu = () => {
         name: 'Fried Rice',
         description: 'Savory fried rice with vegetables, eggs, and seasonings',
         image: '/lovable-uploads/7a0a8bed-cd43-4a09-92d6-ef2c07879034.png'
-      },
-      {
-        name: 'Premium Charcuterie Platter',
-        description: 'Elegant arrangement of premium meats, cheeses, and gourmet accompaniments',
-        image: '/lovable-uploads/12d10bf9-ed31-4910-81fb-f812024a75fd.png'
       },
       {
         name: 'Catering Spread',
