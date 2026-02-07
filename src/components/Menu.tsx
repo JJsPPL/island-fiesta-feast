@@ -73,144 +73,144 @@ const Menu = () => {
       { 
         name: 'Lime Shaved Ice', 
         description: 'Refreshing lime-flavored shaved ice with tropical twist',
-        image: '/lovable-uploads/490cc38f-a2c9-4c22-b0b9-f75e9e4622f7.png'
+        image: '/images/490cc38f-a2c9-4c22-b0b9-f75e9e4622f7.png'
       },
       { 
         name: 'Strawberry Shaved Ice', 
         description: 'Sweet strawberry shaved ice with vibrant red coloring',
-        image: '/lovable-uploads/efda658c-a805-4727-8463-06af66475254.png'
+        image: '/images/efda658c-a805-4727-8463-06af66475254.png'
       },
       {
         name: 'Lemon Shaved Ice',
         description: 'Zesty lemon shaved ice for a citrus burst',
-        image: '/lovable-uploads/faff21ec-0ff8-4acf-85d3-ec4188900013.png'
+        image: '/images/faff21ec-0ff8-4acf-85d3-ec4188900013.png'
       },
       {
         name: 'Blue Raspberry Shaved Ice',
         description: 'Cool blue raspberry flavored shaved ice',
-        image: '/lovable-uploads/c471be5d-8a5e-4c57-9882-35cbac88cc8c.png'
+        image: '/images/c471be5d-8a5e-4c57-9882-35cbac88cc8c.png'
       },
       {
         name: 'Mango Bingsu',
         description: 'Tropical mango shaved ice topped with whipped cream and fruit',
-        image: '/lovable-uploads/a45a54ac-0b03-4238-a481-7796c5c304b1.png'
+        image: '/images/a45a54ac-0b03-4238-a481-7796c5c304b1.png'
       },
       {
         name: 'Strawberry Bingsu',
         description: 'Shaved ice with strawberry syrup, whipped cream, and fresh strawberry pieces',
-        image: '/lovable-uploads/6dc13440-a76b-454e-b020-5ba678024362.png'
+        image: '/images/6dc13440-a76b-454e-b020-5ba678024362.png'
       },
       {
         name: 'Cotton Candy Bingsu',
         description: 'Festive multi-colored shaved ice with whipped cream and sprinkles',
-        image: '/lovable-uploads/5a57e79d-a28f-47ef-9b80-c4436d303450.png'
+        image: '/images/5a57e79d-a28f-47ef-9b80-c4436d303450.png'
       },
       {
         name: 'Oreo Craffle',
         description: 'Golden waffle topped with Oreo cookies, whipped cream, and chocolate',
-        image: '/lovable-uploads/2ca6126b-b536-4115-8a18-30a80714d9a2.png'
+        image: '/images/2ca6126b-b536-4115-8a18-30a80714d9a2.png'
       },
       {
         name: 'Strawberry Craffle',
         description: 'Fresh waffle with sliced strawberries, whipped cream, and syrup',
-        image: '/lovable-uploads/bac25181-6235-475f-95c2-e47ef0fe8c78.png'
+        image: '/images/bac25181-6235-475f-95c2-e47ef0fe8c78.png'
       },
       {
         name: 'Banana Chocolate Craffle',
         description: 'Crispy waffle with banana slices, chocolate drizzle, and whipped cream',
-        image: '/lovable-uploads/bd4008b8-bce4-4941-87ca-4776d1923678.png'
+        image: '/images/bd4008b8-bce4-4941-87ca-4776d1923678.png'
       }
     ],
     sides: [
       {
         name: 'Holiday Catering Spread',
         description: 'Festive sandwich platters with cookies, muffins, and pastries',
-        image: '/lovable-uploads/event-platter-1.jpg'
+        image: '/images/event-platter-1.jpg'
       },
       {
         name: 'Full Event Buffet',
         description: 'Complete catering setup with sandwiches, pastries, and sweet treats',
-        image: '/lovable-uploads/event-platter-2.jpg'
+        image: '/images/event-platter-2.jpg'
       },
       {
         name: 'Sandwich & Pastry Platter',
         description: 'Turkey provolone sandwiches with pumpkin turnovers and chocolate cookies',
-        image: '/lovable-uploads/event-platter-3.jpg'
+        image: '/images/event-platter-3.jpg'
       },
       {
         name: 'Artisan Sandwich Display',
         description: 'Ham Swiss sandwiches with pumpkin turnovers and festive plates',
-        image: '/lovable-uploads/event-platter-4.jpg'
+        image: '/images/event-platter-4.jpg'
       },
       {
         name: 'Premium Charcuterie Platter',
         description: 'Artisanal meats, cheeses, olives, artichokes, and gourmet crackers',
-        image: '/lovable-uploads/event-platter-5.jpg'
+        image: '/images/event-platter-5.jpg'
       },
       {
         name: 'Fresh Fruit Platter',
         description: 'Beautiful arrangement of seasonal fresh fruits with a creamy dip',
-        image: '/lovable-uploads/8974fcd4-f7fb-4c99-b64c-475f744cb334.png'
+        image: '/images/8974fcd4-f7fb-4c99-b64c-475f744cb334.png'
       },
       {
         name: 'Festive Jello Cups',
         description: 'Layered red and green jello cups with whipped cream',
-        image: '/lovable-uploads/ef141486-5b5e-4b11-913f-19f866970e34.png'
+        image: '/images/ef141486-5b5e-4b11-913f-19f866970e34.png'
       },
       {
         name: 'Strawberry Parfait Cups',
         description: 'Individual parfait cups with strawberry jello and whipped cream',
-        image: '/lovable-uploads/f2271816-2898-40cc-aafc-774f46947d14.png'
+        image: '/images/f2271816-2898-40cc-aafc-774f46947d14.png'
       },
       {
         name: 'Garden Salad Boxes',
         description: 'Fresh individual salad boxes with mixed vegetables and dressing',
-        image: '/lovable-uploads/b7c8871d-4169-4f43-8d69-29b923816fc1.png'
+        image: '/images/b7c8871d-4169-4f43-8d69-29b923816fc1.png'
       },
       {
         name: 'Charcuterie Board',
         description: 'Artisanal meat and cheese board with crackers, olives, and accompaniments',
-        image: '/lovable-uploads/2ee3d07a-5574-4e4d-a8cf-98f941126864.png'
+        image: '/images/2ee3d07a-5574-4e4d-a8cf-98f941126864.png'
       },
       {
         name: 'Holiday Appetizer Cups',
         description: 'Festive individual appetizer cups with seasonal toppings',
-        image: '/lovable-uploads/cee7de18-5700-450d-b8cb-4c51ae74ead2.png'
+        image: '/images/cee7de18-5700-450d-b8cb-4c51ae74ead2.png'
       },
       {
         name: 'Mini Egg Frittatas',
         description: 'Bite-sized frittatas with vegetables and herbs',
-        image: '/lovable-uploads/f27961e8-c921-4d0f-a535-893ea6ccfdf4.png'
+        image: '/images/f27961e8-c921-4d0f-a535-893ea6ccfdf4.png'
       },
       {
         name: 'Mixed Vegetable Medley',
         description: 'Colorful mixture of sautéed seasonal vegetables',
-        image: '/lovable-uploads/4b8f4578-30d1-40c8-8f26-bfd68d0b0188.png'
+        image: '/images/4b8f4578-30d1-40c8-8f26-bfd68d0b0188.png'
       },
       {
         name: 'Fried Rice',
         description: 'Savory fried rice with vegetables, eggs, and seasonings',
-        image: '/lovable-uploads/7a0a8bed-cd43-4a09-92d6-ef2c07879034.png'
+        image: '/images/7a0a8bed-cd43-4a09-92d6-ef2c07879034.png'
       },
       {
         name: 'Catering Spread',
         description: 'Professional catering setup with various appetizers and sides',
-        image: '/lovable-uploads/953549c4-85fd-4595-8a48-60a522c57d2b.png'
+        image: '/images/953549c4-85fd-4595-8a48-60a522c57d2b.png'
       },
       {
         name: 'Grilled Chicken & Peppers',
         description: 'Sautéed bell peppers, onions, and seasoned chicken strips',
-        image: '/lovable-uploads/79e8b0aa-a328-43b1-97d9-0675a9f3f790.png'
+        image: '/images/79e8b0aa-a328-43b1-97d9-0675a9f3f790.png'
       },
       {
         name: 'Smoked BBQ Ribs',
         description: 'Slow-smoked pork ribs with our signature dry rub',
-        image: '/lovable-uploads/18f612a0-07a8-4888-ada8-c406e568b4e2.png'
+        image: '/images/18f612a0-07a8-4888-ada8-c406e568b4e2.png'
       },
       {
         name: 'Roasted Holiday Turkey',
         description: 'Perfectly roasted turkey with seasonal garnish and vegetables',
-        image: '/lovable-uploads/7756d7fb-89d5-4c1e-b04d-564b9f0d22e7.png'
+        image: '/images/7756d7fb-89d5-4c1e-b04d-564b9f0d22e7.png'
       }
     ]
   };

@@ -40,7 +40,7 @@ const Hero = () => {
             {/* Right side - Logo */}
             <div className="flex justify-center md:justify-center md:pl-4 md:-ml-4">
               <img 
-                src="/lovable-uploads/b993cdad-982f-4e75-aa26-a75d288e4c6e.png" 
+                src="/images/b993cdad-982f-4e75-aa26-a75d288e4c6e.png" 
                 alt="JJ's Caters" 
                 className="w-64 md:w-80 lg:w-96 h-auto opacity-90 filter brightness-110" 
               />
