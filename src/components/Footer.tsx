@@ -47,55 +47,6 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-12 pt-8 border-t border-gray-700">
-          <h3 className="font-playfair text-xl font-bold mb-6 text-center">Our Amazing Partners</h3>
-          <div className="grid md:grid-cols-4 gap-6">
-            <div className="bg-white bg-opacity-10 p-5 rounded-lg">
-              <h4 className="font-montserrat font-bold mb-2 text-catering-accent">JJsShavedIce.com</h4>
-              <p className="text-sm text-gray-300">Authentic Hawaiian-style shaved ice with a variety of tropical flavors and toppings.</p>
-              <a 
-                href="https://JJsShavedIce.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-xs text-catering-primary hover:text-white mt-2 inline-block"
-              >
-                Learn More →
-              </a>
-            </div>
-            
-            <div className="bg-white bg-opacity-10 p-5 rounded-lg">
-              <h4 className="font-montserrat font-bold mb-2 text-catering-accent">Pacific NW Extreme Fishing Forecast</h4>
-              <p className="text-sm text-gray-300">Your premier source for accurate fishing forecasts across the Pacific Northwest.</p>
-              <a 
-                href="http://PacificNWExtremeFishingForecast.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-xs text-catering-primary hover:text-white mt-2 inline-block"
-              >
-                Learn More →
-              </a>
-            </div>
-            
-            <div className="bg-white bg-opacity-10 p-5 rounded-lg">
-              <h4 className="font-montserrat font-bold mb-2 text-catering-accent">Sac-Sac Corp LLC</h4>
-              <p className="text-sm text-gray-300">Committed to building stronger communities through meaningful connections.</p>
-            </div>
-            
-            <div className="bg-white bg-opacity-10 p-5 rounded-lg">
-              <h4 className="font-montserrat font-bold mb-2 text-catering-accent">DinoTradez LLC</h4>
-              <p className="text-sm text-gray-300">Enhance your financial approach with Market Fundamental and Technical Analysis.</p>
-              <a 
-                href="http://DinoTradez.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-xs text-catering-primary hover:text-white mt-2 inline-block"
-              >
-                Learn More →
-              </a>
-            </div>
-          </div>
-        </div>
-        
         <div className="border-t border-gray-700 pt-8 mt-10 text-center">
           <p className="font-montserrat text-sm text-gray-400">
             &copy; {currentYear} JJs Caters. All rights reserved.
